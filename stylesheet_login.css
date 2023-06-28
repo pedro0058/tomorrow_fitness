@@ -1,0 +1,78 @@
+/*RESET*/
+*{margin: 0; padding: 0; font-size: 100%;font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box; border: none; outline: none; color: #f2f2f2;}
+  img {max-width: 100%;}
+  ul{list-style: none;}
+  a{text-decoration: none;}
+
+body{background-color: rgb(28, 25, 44);}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+@media (max-width: 575.98px) {
+  .card-cstyle {
+    width: 90% !important;
+  }
+}
+
+.fitness-logo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.login-title{
+  color: rgb(255, 255, 255);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 100px;
+}
+
+.button-cstyle{
+  background-color: rgb(237, 47, 89) !important; 
+  border: none !important;
+  
+}
+.button-cstyle:hover{
+  background-color: rgb(194, 33, 68) !important;  
+}
+.card-cstyle{
+  background-color: rgba(194, 33, 68, 0) !important;
+  border-color: rgba(194, 33, 68, 0) !important;
+}
+
+.label-cstyle{
+  color: white !important;
+}
+input[type=text]{
+  background-color: rgba(194, 33, 68, 0) !important;
+  color: white !important;
+}
+input[type=email]{
+  background-color: rgba(194, 33, 68, 0) !important;
+  color: white !important;
+}
+input[type=password]{
+  background-color: rgba(194, 33, 68, 0) !important;
+  color: white !important;
+}
+
+.form-control:focus {
+  border-color: rgb(237, 47, 89) !important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(237, 47, 89,0.6) !important;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(237, 47, 89,0.6) !important;
+}
+.form-control{
+  border-color: rgb(33, 33, 53) !important;
+}
+
+.login_options{
+  cursor: pointer;
+  color: rgb(237, 47, 89);
+}
+
+.card-cstyle{
+  width: 450px;
+}
