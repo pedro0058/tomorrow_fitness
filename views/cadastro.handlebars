@@ -1,0 +1,140 @@
+<div class="fitness-logo d-flex justify-content-center">
+      <a href=""><img style="width: 200px;" src="/images/logo-colors.png"></a>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p class="login-title">CRIAR CONTA</p>
+    </div>
+    
+    <div class="d-flex justify-content-center p-2">
+      <p>
+        <button class="btn btn-primary button-cstyle" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Inscrever-se como instrutor
+        </button>
+        <button class="btn btn-primary button-cstyle" type="button" data-toggle="collapse" data-target="#collapsealuno" aria-expanded="false" aria-controls="collapsealuno">
+          Inscrever-se como aluno
+        </button>
+      </p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="collapse collapse-cstyle" id="collapseExample">
+        <div class="card card-body card-cstyle" >
+          <form action="/instrutor" method="POST">
+
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="nome1" class="form-control" name="nome" />
+                  <label class="form-label label-cstyle" for="nome1">Nome</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="nome2" class="form-control" name="sobrenome"/>
+                  <label class="form-label label-cstyle" for="nome2">Sobrenome</label>
+                </div>
+              </div>
+            </div>
+          
+            <div class="form-outline mb-4">
+              <input type="email" id="email_input" class="form-control" name="email"/>
+              <label class="form-label label-cstyle" for="email_input">Email</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="cpf_input" class="form-control" name="cpf"/>
+              <label class="form-label label-cstyle" for="cpf_input">CPF</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="formacao_input" class="form-control" name="formacao"/>
+              <label class="form-label label-cstyle" for="formacao_input">Formação</label>
+            </div>
+          
+            <div class="form-outline mb-4">
+              <input type="password" id="senha_input" class="form-control" name="senha"/>
+              <label class="form-label label-cstyle" for="senha_input">Senha</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label label-cstyle" for="flexCheckDefault">
+                  Concordo com os termos.
+                </label>
+            </div>
+
+            <div class="text-center"><button type="submit" class="btn btn-primary btn-block mb-4 button-cstyle">inscrever-se</button></div>
+          
+          </form>
+        </div>
+      </div>
+
+      <div class="collapse collapse-cstyle" id="collapsealuno">
+        <div class="card card-body card-cstyle" >
+          <form action="/aluno" method="POST">
+
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="nome1" class="form-control" name="nome"/>
+                  <label class="form-label label-cstyle" for="nome1">Nome</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="nome2" class="form-control" name="sobrenome"/>
+                  <label class="form-label label-cstyle" for="nome2">Sobrenome</label>
+                </div>
+              </div>
+            </div>
+          
+            <div class="form-outline mb-4">
+              <input type="email" id="email_input" class="form-control" name="email"/>
+              <label class="form-label label-cstyle" for="email_input">Email</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="cpf_input_aluno" class="form-control" name="cpf"/>
+              <label class="form-label label-cstyle" for="cpf_input_aluno">CPF</label>
+            </div>
+
+            <div class="container text-center interesses-cstyle" id="interesses_input">
+              <div class="row p-2">
+                <div class="col">
+                  <button type="button" class="btn btn-light">Treino completo</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-light">Alongamento</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-light">Calistenia</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-light">Ioga</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-light">Pilates</button>
+                </div>
+              </div>
+            </div>
+            <label class="form-label label-cstyle interesses-label-cstyle" for="interesses_input">Interesses</label>
+
+            <div class="form-outline mb-4">
+              <input type="password" id="senha_input" class="form-control" name="senha"/>
+              <label class="form-label label-cstyle" for="senha_input">Senha</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label label-cstyle" for="flexCheckDefault">
+                  Concordo com os termos.
+                </label>
+            </div>
+
+            <div class="text-center"><button type="submit" class="btn btn-primary btn-block mb-4 button-cstyle">inscrever-se</button></div>
+          
+          </form>
+        </div>
+      </div>
+    </div>
