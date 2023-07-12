@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 const routes = express.Router();
 
 routes.get("/", function(req,res){
-    res.sendFile(__dirname + "/view/login.html");
+    res.sendFile(__dirname + "/views/login.html");
 });
 
 routes.get("/aluno", aluno.findAll);
