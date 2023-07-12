@@ -31,15 +31,57 @@ h1{
 
 
 .button-cstyle{
-    color: white;
-    background-color: rgb(237, 47, 89) !important; 
-    border: none !important;
-    
-  }
-  .button-cstyle:hover{
-    color: white !important;
-    background-color: rgb(194, 33, 68) !important;  
-    border: none !important;
-  }
-
+  color: white;
+  background-color: rgb(237, 47, 89) !important; 
+  border: none !important;
   
+}
+.button-cstyle:hover{
+  color: white !important;
+  background-color: rgb(194, 33, 68) !important;  
+  border: none !important;
+}
+
+.middle {
+  transition: .8s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.fade-1 {
+  top: 54%;
+  left: 25%;
+}
+
+.fade-2 {
+  top: 54%;
+  left: 75%;
+}
+
+.fade-3 {
+  top: 84%;
+  left: 25%;
+}
+
+.fade-4 {
+  top: 84%;
+  left: 75%;
+}
+
+.curso-fade:hover img {
+  opacity: 0.3;
+  transition: .3s ease;
+}
+
+.curso-fade:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}

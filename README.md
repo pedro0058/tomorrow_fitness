@@ -8,3 +8,9 @@ Adryan Amaral Silva Araujo 474289
 João Victor Fonseca Sombra 472062
 
 João Pedro de Araújo Lima 497687
+
+
+Compilação:
+    npm install
+    *Abrir banco postgree
+    node server.mjs
